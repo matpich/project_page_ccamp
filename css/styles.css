@@ -57,17 +57,26 @@ article.team {
     margin: 0 .3em;
 }
 .person-box {
+    position: relative;
     display: flex;
-    margin: 5px;
+    margin: 10px 5px;
     width: 80vw;
     height: 80vw;
     min-width: 238px;
     min-height: 238px;
 }
 .person-box div {
+    overflow: hidden;
     margin: auto;
     width: 70%;
     height:70%;
     transform: rotate(-45deg);
-    background-color: green;
+}
+
+.person-box div img {
+    position: absolute;
+    height: 145%;
+    left: -25%;
+    top: -20%;
+    transform: rotate(45deg);
 }
