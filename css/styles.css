@@ -7,12 +7,12 @@ body {
     --gray-text-color: #333;
     background-color: #f6f6f6;
     width: 100%;
+    font-size: 50px;
     overflow: scroll;
 }
 
 article.team {
     padding: 20px;
-    font-size: 50px;
     color: var(--gray-text-color);
     min-width: 246px;
 }
@@ -45,4 +45,29 @@ article.team {
     font-family: "Open Sans", Arial, sans-serif;
     font-size: .8em;
     font-weight: 700;
+}
+
+.photos-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-sizing: border-box;
+    width: calc(100% - .6em);
+    min-width: 246px;
+    margin: 0 .3em;
+}
+.person-box {
+    display: flex;
+    margin: 5px;
+    width: 80vw;
+    height: 80vw;
+    min-width: 238px;
+    min-height: 238px;
+}
+.person-box div {
+    margin: auto;
+    width: 70%;
+    height:70%;
+    transform: rotate(-45deg);
+    background-color: green;
 }
