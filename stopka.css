@@ -1,0 +1,74 @@
+
+.footer{
+    background-color: rgba(40, 40, 40, 255);
+    display: flex;
+    flex-wrap: wrap; 
+}
+.stopka {
+    min-height: 100px;
+    color: rgba(118, 118, 123, 255);
+    display: flex;
+    align-items: center;  
+    flex: 1;
+    justify-content: center; 
+}
+.stopka1{
+    margin-left: 14%;
+    justify-content: flex-start;
+}
+.stopka4{
+    margin-right: 14%;
+    justify-content: flex-end;
+}
+.talk{
+    background-color: rgba(242, 62, 44, 255);
+    color: rgba(252, 204, 199, 255);
+    width: 100%;
+    min-height: 80px;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.3s ease-in-out;
+}
+.talk:hover{
+    transform: scaleY(1.1);
+    background-color: rgba(245, 20, 20, 200);
+}
+
+@media only screen and (min-width: 401px) and (max-width: 960px){
+.talk{
+    min-height: 60px;
+    font-size: 21px;
+}
+.stopka {
+    flex-basis: 50%;
+    justify-content: center;
+    min-height: 70px;
+    font-size: 15px;
+}
+.stopka1{
+    margin-left: 0;
+}
+.stopka4{
+    margin-right: 0;
+}
+}
+@media only screen and (max-width: 400px){
+   .talk{
+       min-height: 50px;
+       font-size: 18px;
+   }
+   .stopka{
+       flex-basis: 100%;
+       justify-content: center;
+       min-height: 50px;
+       font-size: 14px;
+   }
+   .stopka1 {
+       margin-left: 0;
+   }
+   .stopka4 {
+       margin-right: 0;
+}
+}
