@@ -4,21 +4,32 @@
     width:100vw;
     height:20vh;
     flex-wrap: wrap;
-    font-family: Arial, Helvetica, serif;
     font-weight: bold;
-    font-size: 30px;
     justify-content: space-evenly;
     align-items: center;
     background-color:white;
     border: 3px solid;
     border-color: black;
-    width: 100vw;
-    height:100px;
+    color: #333333;
+    font-family: "Open Sans ,sans-serif";
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 72px;
+    text-transform: uppercase;
+    /* Text style for "Our Works" */
+    letter-spacing: 0.53px;
 
 }
 .text{
-    color: rgba(15, 15, 15, 0.75);
-    font-size: 14px;
-    font-weight: normal;
+    /*width:429px;
+    height:39px;*/
+    color: #888888;
+    font-family: "Proxima Nova, sans-serif";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
     
+}
+.paragraph{
+margin: 5px;
 }
