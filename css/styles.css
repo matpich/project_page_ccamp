@@ -1,0 +1,48 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.who-are-we {
+    --gray-text-color: #333;
+    background-color: #f6f6f6;
+    width: 100%;
+    overflow: scroll;
+}
+
+article.team {
+    padding: 20px;
+    font-size: 50px;
+    color: var(--gray-text-color);
+    min-width: 246px;
+}
+
+.team hr {
+    margin: .25em .1em;
+    display: block;
+    width: .3em;
+    border: .01em solid black;
+    float: left;
+}
+#meet-text {
+    float:left;
+    margin: 0 .3em;
+    display: block;
+    color: #ef443a;
+    font-family: Merriweather, Georgia, serif;
+    font-size: 0.4em;
+}
+
+.about-team-text {
+    clear: both;
+    margin: 2em .3em .4em .3em;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: .5em;
+}
+
+#main-question {
+    margin: .1em;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: .8em;
+    font-weight: 700;
+}
