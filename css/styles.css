@@ -73,10 +73,47 @@ article.team {
     transform: rotate(-45deg);
 }
 
-.person-box div img {
+.person-box .person-diamond > img {
     position: absolute;
     height: 145%;
     left: -25%;
     top: -20%;
     transform: rotate(45deg);
+}
+
+.person-box .person-text-box {
+    box-sizing: border-box;
+    background-color: #ef443a;
+    color: white;
+    width:142%;
+    height: 75%;
+    padding: 10px;
+
+
+    text-align: center;
+
+    transform: rotate(0deg);
+    transform-origin: left top;
+    transform: rotate(45deg);
+    opacity: 0;
+}
+
+span.person-name {
+    display: block;
+    text-transform: uppercase;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-weight: 700;
+    font-size: .4em;
+}
+
+span.person-function {
+    margin-top: 7px;
+    display: block;
+    font-family: Merriweather, Georgia, serif;
+    font-size: .32em;
+}
+
+.person-diamond:hover > div.person-text-box {
+    transition: opacity .6s ease-in-out;
+    opacity: .9;
 }
