@@ -8,9 +8,11 @@
     <link rel="stylesheet" type="text/css" href="./css/styles.css">
 
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,700" rel="stylesheet">
+
+    <script src="./js/script.js"></script>
 </head>
 
-<body>
+<body onresize="addDivsOnResize(), removeDivsOnResize()">
     <div class='page'>
         <section class="new-age-knowledge">
             <!-- Michał Wiczk -->
@@ -28,6 +30,7 @@
             <!-- Rafał Klimczak -->
         </section>
         <section class="who-are-we">
+            <button onclick="removeDivsOnResize()">Kliknij</button>
             <!-- Mateusz Pichniarczyk -->
             <article class="team">
                 <h1 id="main-question">WHO ARE WE?</h1>
@@ -39,7 +42,7 @@
                     ultricies, lorem sit amet hendrerit sodales, orci dolor vulputate metus.</p>
 
             </article>
-            <div class="photos-container">
+            <div class="photos-container" id="apen">
 
                 <div class="person-box">
                     <div class="person-diamond">
@@ -71,7 +74,7 @@
                     </div>
                 </div>
 
-                <div class="person-box">
+                <div class="person-box" id='first-in-second-row'>
                     <div class="person-diamond">
                         <img src="./images/person_0003.jpg" alt="Person 003">
                         <div class="person-text-box">
@@ -101,7 +104,7 @@
                     </div>
                 </div>
 
-                <div class="person-box">
+                <div class="person-box" id='first-in-third-row'>
                     <div class="person-diamond">
                         <img src="./images/person_0006.jpg" alt="Person 006">
                         <div class="person-text-box">
