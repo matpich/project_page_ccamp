@@ -1,15 +1,17 @@
-body {
+html, body {
     margin: 0 auto;
     padding: 0;
 }
 
 /* section styles */
 .who-are-we {
+    box-sizing: border-box;
     --gray-text-color: #333;
+    --border-size: 0px;
     background-color: #f6f6f6;
     width: 100%;
     font-size: 50px;
-    overflow: scroll;
+    /*overflow: scroll; */
 }
 
 /* main section text box styles */
@@ -51,8 +53,6 @@ article.team {
 
 /* team photos section */
 .photos-container {
-
-
     font-size: 85vw;
 
     display: flex;
@@ -70,7 +70,7 @@ article.team {
     height: 1em;
     min-width: 200px;
     min-height: 200px;
-    border: 1px solid black;
+    border: var(--border-size) solid black;
 }
 .person-diamond {
     /*diamond shape "frame" */
@@ -148,6 +148,23 @@ span.person-function { /* employee function */
 }
 
 @media only screen and (min-width: 961px){
+    .who-are-we {
+        padding: 3%;
+        padding-right:6%;
+        display: flex;
+        font-size: 30px;
+        align-items: center;
+        justify-content: flex-end;
+        overflow: hidden;
+    }
+
+    article.team {
+        margin-right: 1%;
+        min-width: auto;
+        width:25%;
+        border: var(--border-size) solid blue;
+    }
+
     .person-diamond {
         transform: rotate(0deg);
         width: 100%;
@@ -156,21 +173,29 @@ span.person-function { /* employee function */
     }
 
     .person-box {
-        width:100%;
-        
-        max-width: 250px;
-        max-height: 250px;
 
-        
+        width:19%;
+        margin:.5%;   
+        min-width: auto;
+        min-height: auto;    
+ 
+    }
+
+    .row {
+        width:100%;
+        border: var(--border-size) solid green;
+        display: flex;
     }
 
     .photos-container{
-        border: 2px solid gold;
+        min-width:500px;
+        width:60%;
+        max-width: 700px;
+        transform-origin: center;
+        border: var(--border-size) solid gold;
+        padding: 0;
 
-        flex-direction: row;
-        flex-wrap: wrap;
+        transform: rotate(-45deg);
+
     }
-
-
-    
 }

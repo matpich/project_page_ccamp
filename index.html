@@ -12,7 +12,7 @@
     <script src="./js/script.js"></script>
 </head>
 
-<body onresize="addDivsOnResize(), removeDivsOnResize()">
+<body onresize="addDivsOnResize(), removeDivsOnResize(), setPersonBoxHeight()" onload="addDivsOnResize(), removeDivsOnResize(), setPersonBoxHeight()">
     <div class='page'>
         <section class="new-age-knowledge">
             <!-- Michał Wiczk -->
@@ -30,7 +30,6 @@
             <!-- Rafał Klimczak -->
         </section>
         <section class="who-are-we">
-            <button onclick="removeDivsOnResize()">Kliknij</button>
             <!-- Mateusz Pichniarczyk -->
             <article class="team">
                 <h1 id="main-question">WHO ARE WE?</h1>
