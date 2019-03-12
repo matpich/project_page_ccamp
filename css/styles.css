@@ -3,17 +3,11 @@ html, body {
     padding: 0;
 }
 
-.upper {
-    background-color: aqua;
-    padding:0;
-    margin: 0 auto;
-    height: 500px;
-}
-
 /* section styles */
 .who-are-we {
     box-sizing: border-box;
     --gray-text-color: #333;
+    --red-accent-color: #ef443a;
     --border-size: 0px;
     background-color: #f6f6f6;
     width: 100%;
@@ -46,7 +40,7 @@ article.team {
     float:left;
     margin: 0 .3em;
     display: block;
-    color: #ef443a;
+    color: var(--red-accent-color);
     font-family: Merriweather, Georgia, serif;
     font-size: 0.4em;
 }
@@ -71,8 +65,10 @@ article.team {
     position: relative;
     box-sizing: border-box;
     margin: 10px 0;
-    width: 1em;
-    height: 1em;
+    /* width: 1em;
+    height: 1em; */
+    width: 60vw;
+    height: 60vw;
     min-width: 200px;
     min-height: 200px;
     border: var(--border-size) solid black;
@@ -97,14 +93,14 @@ article.team {
     transform: rotate(45deg);
 }
 
-.person-box .person-text-box { /* employee name and function */
+.person-box .person-text-box { /* employee name and position */
     box-sizing: border-box;
-    background-color: #ef443a;
+    background-color: var(--red-accent-color);
     color: white;
-    width:142%;
-    font-size: 100%;
+    width:142%; 
+    font-size: 16px;
     height: 75%;
-    padding: 2px;
+    padding-top: 4px;
     text-align: center;
     transform: rotate(0deg);
     transform-origin: left top;
@@ -117,14 +113,14 @@ span.person-name { /* employee name */
     text-transform: uppercase;
     font-family: "Open Sans", Arial, sans-serif;
     font-weight: 700;
-    font-size: calc(13px + 0.015em);
+    font-size: calc(1em + 0.1vw);
 }
 
 span.person-function { /* employee function */
     margin-top: 2px;
     display: block;
     font-family: Merriweather, Georgia, serif;
-    font-size: calc(10px + 0.015em);
+    font-size: calc(.7em + 0.1vw);
 }
 
 .person-diamond:hover > div.person-text-box {
@@ -149,6 +145,14 @@ span.person-function { /* employee function */
 
         min-height: 180px;
         max-height: 250px;
+    }
+
+    span.person-name {
+        font-size: calc(.85em + 0.1vw);
+    }
+
+    span.person-function {
+        font-size: calc(.6em + 0.1vw);
     }
 }
 
@@ -202,5 +206,24 @@ span.person-function { /* employee function */
 
         transform: rotate(-45deg);
 
+    }
+
+    span.person-name {
+        font-size: calc(.2em + .8vw);
+    }
+
+    span.person-function {
+        font-size: calc(.15em + .8vw);
+    }
+    
+}
+
+@media only screen and (min-width: 1270px) {
+    span.person-name {
+        font-size: 13.36px;
+    }
+
+    span.person-function {
+        font-size: 12.56px;
     }
 }
