@@ -3,6 +3,13 @@ html, body {
     padding: 0;
 }
 
+.upper {
+    background-color: aqua;
+    padding:0;
+    margin: 0 auto;
+    height: 500px;
+}
+
 /* section styles */
 .who-are-we {
     box-sizing: border-box;
@@ -53,8 +60,6 @@ article.team {
 
 /* team photos section */
 .photos-container {
-    font-size: 85vw;
-
     display: flex;
     padding: 20px;
     min-width: 200px;
@@ -99,7 +104,7 @@ article.team {
     width:142%;
     font-size: 100%;
     height: 75%;
-    padding: 10px;
+    padding: 2px;
     text-align: center;
     transform: rotate(0deg);
     transform-origin: left top;
@@ -112,14 +117,14 @@ span.person-name { /* employee name */
     text-transform: uppercase;
     font-family: "Open Sans", Arial, sans-serif;
     font-weight: 700;
-    font-size: calc(10px + 0.015em);
+    font-size: calc(13px + 0.015em);
 }
 
 span.person-function { /* employee function */
-    margin-top: 7px;
+    margin-top: 2px;
     display: block;
     font-family: Merriweather, Georgia, serif;
-    font-size: calc(7px + 0.015em);
+    font-size: calc(10px + 0.015em);
 }
 
 .person-diamond:hover > div.person-text-box {

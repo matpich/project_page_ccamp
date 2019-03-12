@@ -50,7 +50,7 @@ const modifyDivsQuantity = function (divsCollection, divsMainParent, parentMetho
 const removeDivsOnResize = function () {
 
     let personBoxesQuantity = document.getElementsByClassName('person-box').length; //return the quantity of child elements in person-box
-    //it should modufy the page only if width is less than 960
+    //it should modify the page only if width is less than 961
     if (window.innerWidth < 961 && personBoxesQuantity > 8) {
         let photosContainer = document.getElementById('apen'); //parent element
 
