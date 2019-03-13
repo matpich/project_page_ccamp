@@ -74,3 +74,62 @@
         margin-bottom: 30%;
     }
 }
+/*Damian Case-study*/
+/*ustwanienia całego kontenera*/
+.container{
+    padding-left: 354px;
+    padding-top: 268px;
+}
+.Case-Study{
+   width: 1920px;
+   height: 891px;
+   background-color: #28282e;
+   
+  
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+/*ustawienia tesktów*/
+.heading {
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 53px;
+    font-weight: 700;
+    line-height: 72px;
+    /* Text style for "Project Ti" */
+    letter-spacing: 0.53px;
+}
+.descripton {
+    width: 404px;
+    height: 95px;
+    color: #ffffff;
+    font-family: 'Work Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.Case-Study .buttons {
+    display: inline-block;
+    border: 2px solid white;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-bottom: 20px;
+ 
+
+}
+.container .mac{
+display: flex;
+flex-direction: column;
+align-content: flex-end;
+justify-content: flex-end;
+width: 446px;
+height: 292px;
+}
+.container .icons{
+    display: flex;
+    align-content: flex-end;
+}
