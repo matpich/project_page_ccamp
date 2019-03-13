@@ -6,6 +6,10 @@
     <meta charset="utf-8">
     <title>Project_page_ccamp</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans:400,700" rel="stylesheet">
+
+    <script src="./js/script.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,600,700&amp;subset=latin-ext" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="css/styles.css">
     <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
@@ -14,7 +18,7 @@
 
 </head>
 
-<body>
+<body onresize="addDivsOnResize(), removeDivsOnResize(), setPersonBoxHeight()" onload="addDivsOnResize(), removeDivsOnResize(), setPersonBoxHeight()">
     <div class='page'>
         <section class="new-age-knowledge">
             <!-- Michał Wiczk -->
@@ -118,6 +122,100 @@
         </section>
         <section class="who-are-we">
             <!-- Mateusz Pichniarczyk -->
+            <div>
+            <article class="team">
+                <h1 id="main-question">WHO ARE WE?</h1>
+                <hr>
+                <p id="meet-text">Meet the entire team</p>
+                <p class="about-team-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus aliquet
+                    purus et orci tincidunt
+                    tempus. Duis
+                    ultricies, lorem sit amet hendrerit sodales, orci dolor vulputate metus.</p>
+
+            </article>
+            <div class="photos-container" id="apen">
+
+                <div class="person-box">
+                    <div class="person-diamond">
+                        <img src="./images/person_0000.jpg" alt="Person 000">
+                        <div class="person-text-box">
+                            <span class="person-name">John Doe</span>
+                            <span class="person-function">UI Designer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="person-box">
+                    <div class="person-diamond">
+                        <img src="./images/person_0001.jpg" alt="Person 001">
+                        <div class="person-text-box">
+                            <span class="person-name">John Doe</span>
+                            <span class="person-function">UI Designer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="person-box">
+                    <div class="person-diamond">
+                        <img src="./images/person_0002.jpg" alt="Person 002">
+                        <div class="person-text-box">
+                            <span class="person-name">John Doe</span>
+                            <span class="person-function">UI Designer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="person-box" id='first-in-second-row'>
+                    <div class="person-diamond">
+                        <img src="./images/person_0003.jpg" alt="Person 003">
+                        <div class="person-text-box">
+                            <span class="person-name">John Doe</span>
+                            <span class="person-function">UI Designer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="person-box">
+                    <div class="person-diamond">
+                        <img src="./images/person_0004.jpg" alt="Person 004">
+                        <div class="person-text-box">
+                            <span class="person-name">John Doe</span>
+                            <span class="person-function">UI Designer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="person-box">
+                    <div class="person-diamond">
+                        <img src="./images/person_0005.jpg" alt="Person 005">
+                        <div class="person-text-box">
+                            <span class="person-name">John Doe</span>
+                            <span class="person-function">UI Designer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="person-box" id='first-in-third-row'>
+                    <div class="person-diamond">
+                        <img src="./images/person_0006.jpg" alt="Person 006">
+                        <div class="person-text-box">
+                            <span class="person-name">John Doe</span>
+                            <span class="person-function">UI Designer</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="person-box">
+                    <div class="person-diamond">
+                        <img src="./images/person_0007.jpg" alt="Person 007">
+                        <div class="person-text-box">
+                            <span class="person-name">John Doe</span>
+                            <span class="person-function">UI Designer</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    </div>
         </section>
         <section class="slow-life">
             <!-- Mateusz Pasierbek & Dominik Maroszczyk -->
