@@ -253,27 +253,29 @@ span.person-function { /* employee function */
 .new-age-knowledge .icon-briefcase {
     color: red;
     margin-right: 15px;
+    text-justify: center;
 }
 
 .new-age-knowledge .icon {
     display: flex;
     font-size: 0.8em;
-    text-justify: center;
+    line-height: 15px;
     font-weight: bold;
 }
 
-.new-age-knowledge .text {
+.new-age-knowledge .textNAK {
     margin-top: 8%;
 }
 
-.new-age-knowledge h1 {
-    font-size: 2.4em;
-    letter-spacing: 0.04em;
+.new-age-knowledge h1{
+    font-size: 2.2em;
+    line-height: 1.1;
+    letter-spacing: 0.06em;
 }
 
-.new-age-knowledge h4 {
-    font-size: 0.9em;
-    margin-bottom: 6%;
+.new-age-knowledge h4{
+    font-size: 0.8em;
+    margin-bottom: 5%;
 }
 
 .new-age-knowledge .button {
@@ -306,10 +308,10 @@ span.person-function { /* employee function */
     }
 }
 
-* {
+/** {
     margin: 0px;
     padding: 0px;
-}
+}*/
 
 
 :root {
