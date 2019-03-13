@@ -2,54 +2,99 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <title>Project_page_ccamp</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" type="text/css" href="css/styles.css"> 
-  <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
+    <meta charset="utf-8">
+    <title>Project_page_ccamp</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Work+Sans:100" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Merriweather:300|Open+Sans:700" rel="stylesheet">
+
 </head>
 
 <body>
-  <div class='page'>
-    <section class="new-age-knowledge">
-        <!-- Michał Wiczk -->
-        <div class="container">
-            <div class="icon">
-                <a class="icon-briefcase" href="#"><img src="images/briefcase.png" alt="Briefcase"></a>
-                <p>Logo goes here</p>
+    <div class='page'>
+        <section class="new-age-knowledge">
+            <!-- Michał Wiczk -->
+            <div class="container">
+                <div class="icon">
+                    <a class="icon-briefcase" href="#"><img src="images/briefcase.png" alt="Briefcase"></a>
+                    <p>Logo goes here</p>
+                </div>
+                <div class="text">
+                    <h1> So begins a new age <br> of knowledge </h1>
+                    <h4> 
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nulla quis <br>
+                        turpis curcus pharetra. Fusce blandit nec tortor sit amet ullamcorper.
+                    </h4>
+                    <a class="button" href="#" target="_blank"> Projects</a>
+                </div>
             </div>
-            <div class="text">
-                <h1> So begins a new age <br> of knowledge </h1>
-                <h4> 
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam vitae nulla quis <br>
-                    turpis curcus pharetra. Fusce blandit nec tortor sit amet ullamcorper.
-                </h4>
-                <a class="button" href="#" target="_blank"> Projects</a>
+        </section>
+        <section class="our-services">
+            <!-- Ewa Korościk -->
+        </section>
+        <section class="our-works">
+            <!-- Mateusz Pasierbek & Dominik Maroszczyk -->
+            <header class="title">
+                <h1 class="main-title">Our Works</h1>
+                <p class="sub-title">
+                    <i class="fas fa-minus"></i>Lorem ipsum dolor sit
+                </p>
+            </header>
+            <div class="description">
+                <p class="text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error sunt est necessitatibus
+                    earum similique Lorem ipsum dolor, sit amet consectetur adipisicing elit. Lorem ipsum dolor sit
+                    amet, consectetur adpisicing elit. Error sunt est necessitatibus earum
+                </p>
             </div>
-        </div>
-    </section>
-    <section class="our-services">
-        <!-- Ewa Korościk -->
-    </section>
-    <section class="our-works">
-        <!-- Mateusz Pasierbek & Dominik Maroszczyk -->
-    </section>
-    <section class="project-title-here">
-        <!-- Damian Wojewoda -->
-    </section>
-    <section class="read-our-minds">
-        <!-- Rafał Klimczak -->
-    </section>
-    <section class="who-are-we">
-        <!-- Mateusz Pichniarczyk -->
-    </section>
-    <section class="slow-life">
-        <!-- Mateusz Pasierbek & Dominik Maroszczy -->
-    </section>
-    <section class="footer">
-        <!-- Wojciech Mazur -->
-    </section>
-  </div>
+        </section>
+        <section class="project-title-here">
+            <!-- Damian Wojewoda -->
+        </section>
+        <section class="read-our-minds">
+            <!-- Rafał Klimczak -->
+        </section>
+        <section class="who-are-we">
+            <!-- Mateusz Pichniarczyk -->
+        </section>
+        <section class="slow-life">
+            <!-- Mateusz Pasierbek & Dominik Maroszczyk -->
+            <header class="title">
+                <h1 class="main-title">Slow Life (Vimeo)</h1>
+            </header>
+            <div class="description">
+                <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores error laboriosam vitae
+                    esse quis nulla, veniam odit eaque! Consequatur odit, cum ratione magnam itaque repudiandae
+                    incidunt sit esse nihil eligendi, veniam perferendis nostrum reiciendis est quidem?</p>
+            </div>
+            <div class="image-slider">
+                <div class="slider-wrapper">
+                    <div class="slide" style="background-image: url('images/image(1).jpeg');"></div>
+                    <div class="slide" style="background-image: url('images/image(2).jpeg');"></div>
+                    <div class="slide" style="background-image: url('images/image(3).jpeg');"></div>
+                    <div class="slide" style="background-image: url('images/image(4).jpeg');"></div>
+                    <div class="slide" style="background-image: url('images/image(5).jpeg');"></div>
+                    <div class="slide" style="background-image: url('images/image(6).jpeg');"></div>
+                </div>
+
+                <div class="dots">
+                    <i class="fas fa-circle activ" onclick="slide(0)"></i>
+                    <i class="fas fa-circle" onclick="slide(1)"></i>
+                    <i class="fas fa-circle" onclick="slide(2)"></i>
+                    <i class="fas fa-circle" onclick="slide(3)"></i>
+                    <i class="fas fa-circle" onclick="slide(4)"></i>
+                    <i class="fas fa-circle" onclick="slide(5)"></i>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <!-- Wojciech Mazur -->
+        </section>
+    </div>
+
+    <script src="js/slider.js"></script>
 </body>
 
 </html>
