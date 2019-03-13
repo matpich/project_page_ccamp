@@ -1,97 +1,17 @@
-.new-age-knowledge {
-    background-image: url(../images/new-age-knowledge.png);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    min-height: 100vh;
-}
 
-.new-age-knowledge .container {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-direction: column;
-    height: 100%;
-    padding: 4%;
-    color: white;
-    padding-left: 16%;
-    font-family: 'Work Sans', sans-serif;
-}
-
-.new-age-knowledge .icon-briefcase {
-    color: red;
-    margin-right: 15px;
-}
-
-.new-age-knowledge .icon {
-    display: flex;
-    font-size: 0.8em;
-    text-justify: center;
-    font-weight: bold;
-}
-
-.new-age-knowledge .text {
-    margin-top: 8%;
-}
-
-.new-age-knowledge h1 {
-    font-size: 2.4em;
-    letter-spacing: 0.04em;
-}
-
-.new-age-knowledge h4 {
-    font-size: 0.9em;
-    margin-bottom: 6%;
-}
-
-.new-age-knowledge .button {
-    display: inline-block;
-    border: 2px solid white;
-    color: white;
-    padding: 0.8em 3em;
-    text-decoration: none;
-    font-weight: bold;
-    margin-bottom: 20px;
-}
-
-@media only screen and (max-width: 500px) {
-
-    .new-age-knowledge .container {
-        padding-left: 5%;
-    }
-
-    .new-age-knowledge .text {
-        top: 3%;
-    }
-
-    .new-age-knowledge h1 {
-        font-size: 2.2em;
-        letter-spacing: 0.04em;
-    }
-    
-    .new-age-knowledge h4 {
-        margin-bottom: 30%;
-    }
-}
 /*Damian Case-study*/
 /*ustwanienia całego kontenera*/
-.container{
-    padding-left: 354px;
-    padding-top: 268px;
-}
 .Case-Study{
-   width: 1920px;
-   height: 891px;
-   background-color: #28282e;
-   
-  
+width: 1920px;
+height: 891px;
+background-color: #28282e;
 }
-.content{
-    display: flex;
-    flex-direction: column;
-    justify-content: space-around;
+.container {
+    max-width: 1920px;
+    width: 100%;
+    margin: 0 auto;
 }
+
 /*ustawienia tesktów*/
 .heading {
     color: #ffffff;
@@ -101,35 +21,68 @@
     line-height: 72px;
     /* Text style for "Project Ti" */
     letter-spacing: 0.53px;
+    padding-left: 354px;
+    padding-top: 268px;
 }
-.descripton {
-    width: 404px;
-    height: 95px;
+
+
+.heading .descripton {
+     width: 404px;
+     height: 95px;
     color: #ffffff;
     font-family: 'Work Sans', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 26px;
 }
-.Case-Study .buttons {
-    display: inline-block;
-    border: 2px solid white;
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-    margin-bottom: 20px;
+ .buttons {
+   display: inline-block;
+   border: 2px solid white;
+   color: white;
+   padding: 0.8em 3em;
+   text-decoration: none;
+   font-weight: bold;
  
-
 }
-.container .mac{
-display: flex;
-flex-direction: column;
-align-content: flex-end;
-justify-content: flex-end;
-width: 446px;
-height: 292px;
+.mac {
+   position: absolute;
+   top: 300px;
+   left: 976px;
+    width: 446px;
+    height: 272px;
 }
-.container .icons{
+ .laptop {
+    position: absolute;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+.mac img {
+    position: relative;
     display: flex;
-    align-content: flex-end;
+    flex-direction: column;
+}
+
+.mac .option {
+    position: relative;
+    width: 418px;
+    height: 262px;
+    padding-left: 10px;
+    padding-top: 14px;
+    padding-right: 14px;
+    padding-bottom: 14px;
+    margin-left: 55px;
+    margin-right: 65px;
+    border: 1px solid white;
+    border-radius: 8px;
+}
+.icons{
+    display: flex;
+    flex-direction: row;
+    padding-left: 40px;
+    padding-top: 87px;
+}
+.rectangle {
+    width: 3px;
+    height: 25px;
+    background-color: #ffffff;
 }
